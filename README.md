@@ -2,17 +2,18 @@
 
 Details on running this rails server (Windows environment):  
 
-* Ruby version  
+Ruby version  
 ruby 3.2.2
 [Download here](https://www.ruby-lang.org/en/downloads/)
 
-* System dependencies  
+System dependencies  
 [See for yourself](https://github.com/DonnellyEarley/RailsExample/blob/master/Gemfile)
 
-* Configuration  
+Configuration  
 [See for yourself](https://github.com/DonnellyEarley/RailsExample/blob/master/config/application.rb)
 
-* Deployment instructions  
+Deployment instructions  
+
 Steps:
 1. Clone this repo
 2. [Install Ruby](https://www.ruby-lang.org/en/downloads/) if you haven't already.
