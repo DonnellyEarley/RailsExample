@@ -3,13 +3,13 @@
 Details on running this rails server (Windows environment):  
 
 Ruby version  
-ruby 3.2.2
+**ruby 3.2.2**
 
 System dependencies  
-[See for yourself](https://github.com/DonnellyEarley/RailsExample/blob/master/Gemfile)
+**[See for yourself](https://github.com/DonnellyEarley/RailsExample/blob/master/Gemfile)**
 
 Configuration  
-[See for yourself](https://github.com/DonnellyEarley/RailsExample/blob/master/config/application.rb)
+**[See for yourself](https://github.com/DonnellyEarley/RailsExample/blob/master/config/application.rb)**
 
 ## Deployment instructions  
 
