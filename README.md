@@ -4,7 +4,6 @@ Details on running this rails server (Windows environment):
 
 Ruby version  
 ruby 3.2.2
-[Download here](https://www.ruby-lang.org/en/downloads/)
 
 System dependencies  
 [See for yourself](https://github.com/DonnellyEarley/RailsExample/blob/master/Gemfile)
