@@ -12,7 +12,7 @@ System dependencies
 Configuration  
 [See for yourself](https://github.com/DonnellyEarley/RailsExample/blob/master/config/application.rb)
 
-Deployment instructions  
+## Deployment instructions  
 
 Steps:
 1. Clone this repo
