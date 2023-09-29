@@ -19,7 +19,8 @@ Steps:
 3. [Install Rails](https://rubyinstaller.org/downloads/) (click the top option under the 'WITH DEVKIT' section).
 4. (Optional) [Install SQLite3](https://www.sqlite.org/download.html) (click the 'sqlite-tools....zip' under the 'Precompiled Binaries for Windows' section).
 5. In console, cd to location you cloned this repo and run ``bundle install``.
-6. After the above completes, run the server by entering ``ruby bin/rails server``.
-7. The app will now be running on localhost:3000.
+6. Then run ``ruby bin/rails db:migrate``.
+7. After the above completes, run the server by entering ``ruby bin/rails server``.
+8. The app will now be running on localhost:3000.
 
 **ENJOY!**
