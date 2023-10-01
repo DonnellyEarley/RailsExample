@@ -11,3 +11,9 @@
 }
 
 */
+
+@layer base {
+  .header-container {
+    @apply bg-gray-600 h-12;
+  }
+}
