@@ -6,12 +6,10 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= javascript_include_tag "turbo", type: "module" %>
-    <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
   </head>
 
   <body>
-    <div class="Header w-auto h-12 bg-neutral-700"></div>
     <%= yield %>
   </body>
 </html>
