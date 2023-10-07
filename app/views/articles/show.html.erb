@@ -2,14 +2,13 @@
 
 <p><%= @article.body %></p>
 
-<ul>
-  <li><%= link_to "Edit", edit_article_path(@article) %></li>
-  <li><%= link_to "Destroy", article_path(@article), data: {
-                    turbo_method: :delete,
-                    turbo_confirm: "Are you sure?"
-                  } %></li>
-</ul>
-
+<%= link_to "<i class='bi bi-pencil-square'></i> Edit".html_safe, edit_article_path(@article), class: "btn btn-primary btn-sm" %>
+<%= link_to "<i class='bi bi-trash'></i> Delete".html_safe, article_path(@article), data: {
+      turbo_method: :delete,
+      turbo_confirm: "Are you sure?"
+    }, class: "btn btn-danger btn-sm" %>
+<br />
+<br />
 <h2>Comments</h2>
 <%= render @article.comments %>
 
