@@ -32,9 +32,9 @@
           </div>
         </div>
         <%= form_with do |form| %>
-          <div class="form-check form-switch form-switch-lg">
+          <div class="form-check form-switch form-switch-lg me-3">
             <%= form.check_box :mode_switch, class: "form-check-input" %>
-            <%= form.label :mode_switch, class: "form-check-label" %>
+            <%= form.label :mode_switch, '<i class="bi bi-brightness-high"></i>'.html_safe, id: "mode_switch_label", class: "form-check-label" %>
           </div>
         <% end %>
       </nav>
