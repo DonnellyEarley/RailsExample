@@ -14,10 +14,10 @@ Configuration
 ## Deployment instructions  
 
 Steps:
-1. Clone this repo
-2. [Install Ruby](https://www.ruby-lang.org/en/downloads/) if you haven't already.
-3. [Install Rails](https://rubyinstaller.org/downloads/) (click the top option under the 'WITH DEVKIT' section).
-4. (Optional) [Install SQLite3](https://www.sqlite.org/download.html) (click the 'sqlite-tools....zip' under the 'Precompiled Binaries for Windows' section).
+1. [Install Ruby](https://www.ruby-lang.org/en/downloads/) if you haven't already.
+2. [Install Rails](https://rubyinstaller.org/downloads/) (click the top option under the 'WITH DEVKIT' section).
+3. (Optional) [Install SQLite3](https://www.sqlite.org/download.html) (click the 'sqlite-tools....zip' under the 'Precompiled Binaries for Windows' section).
+4. Clone this repo.
 5. In console, cd to location you cloned this repo and run ``bundle install``.
 6. Then run ``ruby bin/rails db:migrate``.
 7. Then run ``rake assets:precompile``.
